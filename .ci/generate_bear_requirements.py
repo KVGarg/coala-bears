@@ -214,7 +214,7 @@ def sort_requirements(req_dict):
                                             key=lambda t: t[0]))
 
 
-def main(args):
+def main(args=None):
     args = get_args(args)
 
     bear_dirs = [PROJECT_BEAR_DIR]
