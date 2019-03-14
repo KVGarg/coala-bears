@@ -16,7 +16,7 @@ class HAMLLintBear:
     clean and readable HAML code.
     """
     LANGUAGES = {'Haml'}
-    REQUIREMENTS = {GemRequirement('haml_lint', '0.27.0')}
+    REQUIREMENTS = {GemRequirement('haml_lint', '0.28.0')}
     AUTHORS = {'The coala developers'}
     AUTHORS_EMAILS = {'coala-devel@googlegroups.com'}
     LICENSE = 'AGPL-3.0'
