@@ -181,6 +181,7 @@ before_install:
            > requirements.txt
 
 before_script:
+  - pip install six -U
   - mv requirements.orig requirements.txt
   - .ci/deps.coala-bears.sh
 
